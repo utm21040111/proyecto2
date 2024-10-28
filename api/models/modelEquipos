@@ -6,12 +6,17 @@ const equipoSchema = new Schema([
             type: String,
             require: true
         }
-    }, {
-        participantes: [{
-            type: Schema.Types.ObjectId,
-            required: true
-        }]
-    }, {
+    },
+    {
+        participantesId: []
+    },
+    /*{
+       participantes: [{
+           type: Schema.Types.ObjectId,
+           required: true
+       }]
+   }, */
+    {
         liderId: [{
             type: Schema.Types.ObjectId,
             required: true

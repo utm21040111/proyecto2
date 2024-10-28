@@ -6,8 +6,14 @@ const usuarioSchema = new Schema([
             type: String,
             require: true
         }
-
-    }, {
+    },
+    {
+        password: {
+            type: String,
+            required: true
+        }
+    },
+    {
         mail: {
             type: String,
             require: true
