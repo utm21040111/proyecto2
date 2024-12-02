@@ -6,6 +6,7 @@ import helmet from "helmet";
 import { registrarUsuarios, login, actualizarPerfil } from './controllers/controllerUsuarios.js';
 import { crearEvento } from './controllers/controllerEventos.js';
 
+
 dotenv.config();
 
 const app = express();

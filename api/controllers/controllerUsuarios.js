@@ -78,7 +78,7 @@ export const actualizarPerfil = async (req, res) => {
 
         await usuario.save();
 
-        return res.status(200).json({ message: "El perfil del usuario ha sido actualizado correctamente", usuario });
+        return res.status(200).json({ message: "Perfil del Usuario ha sido actualizado correctamente.", usuario });
     } catch (err) {
         console.error(err);
         return res.status(500).json({ error: "El perfil del usuario NO ha sido actualizado correctamente", details: err.message });
