@@ -3,14 +3,7 @@ import React, { useState } from "react";
 import { Card, Container, Form, Button } from "react-bootstrap"
 import Swal from "sweetalert2";
 import './participantsRegister.css';
-
-interface IUser {
-    nombre: String;
-    password: String;
-    mail: String;
-    curp: String;
-    rol: String;
-}
+import { IUser } from "../Types";
 
 export const RegisterPartcipant = () => {
 

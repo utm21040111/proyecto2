@@ -1,0 +1,32 @@
+#container {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#tittle {
+    margin: 30px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#cardTittle {
+    text-align: center;
+}
+
+#card1 {
+    margin-top: 15px;
+}
+
+#sendButton {
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
+#inputBarra {
+    margin-bottom: 10px;
+}
